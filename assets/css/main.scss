@@ -79,7 +79,7 @@ li {
 .w {
     max-width: 800px;
     margin: 0 auto;
-    padding: 4rem 2rem;
+    padding: 2rem 2rem;
 }
 
 .toc {
@@ -153,4 +153,12 @@ img {
 figcaption {
     text-align: center;
     opacity: 0.5;
+}
+
+img.frontispiece {
+    max-width: 40%;
+    display: block;
+    margin: auto;
+    border: 3px solid white;
+    filter: drop-shadow(0.25rem 0.25rem 0.5rem #000000);
 }
